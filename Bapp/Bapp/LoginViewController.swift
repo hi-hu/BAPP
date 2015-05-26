@@ -37,6 +37,7 @@ class LoginViewController: UIViewController {
             } else {
                 // The login failed. Check error to see why.
                 println("login fail")
+                self.performSegueWithIdentifier("loginSegue", sender: self)
             }
         }
         

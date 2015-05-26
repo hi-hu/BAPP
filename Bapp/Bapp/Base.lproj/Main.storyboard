@@ -66,9 +66,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1243" y="804"/>
+            <point key="canvasLocation" x="1189" y="804"/>
         </scene>
-        <!--Test-->
+        <!--View Controller-->
         <scene sceneID="KsP-Wt-7wl">
             <objects>
                 <viewController id="M03-vt-1am" sceneMemberID="viewController">
@@ -80,22 +80,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gjG-9z-mj9">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U7j-tv-lc0">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fi0-2x-dtq">
+                                        <rect key="frame" x="8" y="53" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KzV-BS-DHs">
+                                        <rect key="frame" x="110" y="174" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BCg-Rn-L5Q">
+                                        <rect key="frame" x="212" y="53" width="100" height="100"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" red="0.19359999999999999" green="0.88" blue="0.29655999999999999" alpha="1" colorSpace="deviceRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="U7j-tv-lc0" firstAttribute="height" secondItem="HxG-qJ-MjL" secondAttribute="height" id="5Ul-LY-DJ2"/>
+                            <constraint firstItem="U7j-tv-lc0" firstAttribute="width" secondItem="HxG-qJ-MjL" secondAttribute="width" id="fh3-Hu-7hd"/>
+                        </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Test" id="AdN-7l-xNA">
-                        <barButtonItem key="backBarButtonItem" title="Back" id="TFJ-aR-UXg"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="AdN-7l-xNA"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="568"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ffu-dh-1q9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1833" y="804"/>
+            <point key="canvasLocation" x="1711" y="804"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ne7-7g-xcc">
