@@ -14,6 +14,8 @@
 		B88D66381B125C2500352EFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B88D66361B125C2500352EFA /* LaunchScreen.xib */; };
 		B88D66441B125C2500352EFA /* BappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D66431B125C2500352EFA /* BappTests.swift */; };
 		B88D664F1B12BBB800352EFA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88D664E1B12BBB800352EFA /* LoginViewController.swift */; };
+		B8BF70A71B251CBE0088F28D /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF70A61B251CBE0088F28D /* ActivitiesViewController.swift */; };
+		B8BF70A91B2528B30088F28D /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BF70A81B2528B30088F28D /* ActivityTableViewCell.swift */; };
 		EA39F79FB9C3CCC86CACA316 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A2A3E847B2C88133B17D38D /* Pods.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		B88D66421B125C2500352EFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B88D66431B125C2500352EFA /* BappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BappTests.swift; sourceTree = "<group>"; };
 		B88D664E1B12BBB800352EFA /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B8BF70A61B251CBE0088F28D /* ActivitiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		B8BF70A81B2528B30088F28D /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
 		FE8B3C56C02231B41D343A05 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +147,8 @@
 			isa = PBXGroup;
 			children = (
 				B88D664E1B12BBB800352EFA /* LoginViewController.swift */,
+				B8BF70A61B251CBE0088F28D /* ActivitiesViewController.swift */,
+				B8BF70A81B2528B30088F28D /* ActivityTableViewCell.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -299,6 +305,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B88D664F1B12BBB800352EFA /* LoginViewController.swift in Sources */,
+				B8BF70A71B251CBE0088F28D /* ActivitiesViewController.swift in Sources */,
+				B8BF70A91B2528B30088F28D /* ActivityTableViewCell.swift in Sources */,
 				B88D66301B125C2500352EFA /* ViewController.swift in Sources */,
 				B88D662E1B125C2500352EFA /* AppDelegate.swift in Sources */,
 			);
